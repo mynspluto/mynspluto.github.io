@@ -1,18 +1,18 @@
 # hidden files
-# .*
-#*.yml
+ .*
+*.yml
 
 # python compiled files
-#*.pyc
+*.pyc
 
 # jekyll debug
- # _site
+_site
 
 # Jeykll Gemfile.lock
-#Gemfile.lock
+Gemfile.lock
 
 # yui-compressor
-#*.jar
+*.jar
 
 # bundle cache
-#vendor
+vendor
