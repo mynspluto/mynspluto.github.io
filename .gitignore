@@ -6,7 +6,7 @@
 #*.pyc
 
 # jekyll debug
-# _site
+ _site
 
 # Jeykll Gemfile.lock
 #Gemfile.lock
