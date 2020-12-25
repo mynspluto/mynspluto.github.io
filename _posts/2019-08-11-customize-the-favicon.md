@@ -1,5 +1,5 @@
 ---
-title: "Customize the Favicon"
+title: Customize the Favicon
 ---
 
 asd
