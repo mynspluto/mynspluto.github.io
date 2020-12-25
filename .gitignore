@@ -1,7 +1,7 @@
 # hidden files
-.*
-!.github
+#.*
+#!.github
 
 # jekyll cache
 # _site
-vendor
+#vendor
