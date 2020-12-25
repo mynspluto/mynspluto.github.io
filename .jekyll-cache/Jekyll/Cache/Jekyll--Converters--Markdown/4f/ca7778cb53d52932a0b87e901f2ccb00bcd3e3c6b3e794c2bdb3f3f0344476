@@ -1,0 +1,5 @@
+I"û<h2 id="naming-and-path">Naming and Path</h2>
+
+<p>Create a new file named <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-TITLE.EXTENSION</code> and put it in the <code class="language-plaintext highlighter-rouge">_post/</code> of the root directory. Please note that the <code class="language-plaintext highlighter-rouge">EXTENSION</code> must be one of <code class="language-plaintext highlighter-rouge">md</code> and <code class="language-plaintext highlighter-rouge">markdown</code>.</p>
+
+:ET
