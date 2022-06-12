@@ -1,4 +1,4 @@
-test
+test22
 rm -r .\node_modules
 npm run build
 npm run export
