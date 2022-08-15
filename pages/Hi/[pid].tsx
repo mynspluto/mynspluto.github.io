@@ -15,7 +15,9 @@ const Hi: NextPage = () => {
   return (
     <>
       hi
-      <ReactMarkdown children={content}/>
+      <ReactMarkdown>
+      {content}
+      </ReactMarkdown>
     </>
   )
 }
