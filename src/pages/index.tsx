@@ -4,12 +4,17 @@ import Image from 'next/image'
 import Link from 'next/link';
 import Router from 'next/router';
 import styles from '../styles/Home.module.css'
+import menus from '../../content/menu'
+import Menu from '../Components/Menu'
+const menus2 = [
+  {title: "asd", child: [{title: 1}, {title: 2}, {title: 3}]},
+]
 
 const Home: NextPage = () => {
   function 반복된UI(str, row, column) {
     let arr = [];
     for(let i = 0; i < row; i++) {
-      arr.push(<div>{i}{str.padEnd(column, '2')}</div>)
+      arr.push(<div key={`${str}-${i}`}>{i}{str.padEnd(column, '2')}</div>)
     }
     return arr
   }
@@ -23,7 +28,15 @@ const Home: NextPage = () => {
           {반복된UI("content", 50, 200)}
         </div>
         <div className={styles.sideMenu}>
-          <div onClick={()=>Router.push('/Hi/1')}>hi</div>
+          {menus.map(menu =>
+            <div className={styles.menu} key={menu.title}>
+              <div>{menu.title}</div>
+              {menu.child?.map(c =>
+                <div className={styles.childMenu} key={c.title}>{c.title}</div>
+              )}
+            </div>
+          )}
+          
         </div>
       </div>
       <div className={styles.footer}>

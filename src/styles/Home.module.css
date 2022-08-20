@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: green;
+  overflow-x: hidden;
 }
 
 .header {
@@ -40,6 +41,17 @@
   font-size: 1.5rem;
   min-height: 5vh;
   padding: 1rem 2rem;
+}
+
+.menu {
+  background-color: red;
+  margin-bottom: 1rem;
+}
+
+.childMenu {
+  background-color: blue;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
 }
 
 
